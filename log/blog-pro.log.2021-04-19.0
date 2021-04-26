@@ -1,0 +1,154 @@
+2021-04-19 11:02:15.782  INFO 16664 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 16664 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 11:02:15.788  INFO 16664 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 11:02:21.245  INFO 16664 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.118 seconds (JVM running for 7.821)
+2021-04-19 11:02:44.641  WARN 16664 --- [http-nio-8081-exec-5] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [477] milliseconds.
+2021-04-19 11:03:01.687  WARN 16664 --- [http-nio-8081-exec-2] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-04-19 11:03:08.422  WARN 16664 --- [http-nio-8081-exec-3] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-04-19 17:35:29.859  INFO 11640 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 11640 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 17:35:29.861  INFO 11640 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 17:35:35.459  INFO 11640 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.293 seconds (JVM running for 8.133)
+2021-04-19 17:36:09.890  WARN 11640 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [262] milliseconds.
+2021-04-19 17:36:12.429 ERROR 11640 --- [http-nio-8081-exec-2] c.e.b.h.ControllerExceptionHandler       : Requst URL : /admin/blogs;jsessionid=758AAA92391840BFA6E5E6AA11794A76, Exception : {}
+
+java.lang.NullPointerException: null
+	at com.example.blog.service.BlogServiceImpl$1.toPredicate(BlogServiceImpl.java:46)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.applySpecificationToCriteria(SimpleJpaRepository.java:765)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.getQuery(SimpleJpaRepository.java:696)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.getQuery(SimpleJpaRepository.java:654)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll(SimpleJpaRepository.java:444)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy107.findAll(Unknown Source)
+	at com.example.blog.service.BlogServiceImpl.listBlog(BlogServiceImpl.java:39)
+	at com.example.blog.service.BlogServiceImpl$$FastClassBySpringCGLIB$$c5df9c1f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.example.blog.service.BlogServiceImpl$$EnhancerBySpringCGLIB$$1024697d.listBlog(<generated>)
+	at com.example.blog.web.admin.BlogController.blogs(BlogController.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-19 17:36:12.431  WARN 11640 --- [http-nio-8081-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.NullPointerException]
+2021-04-19 17:38:31.534  INFO 11640 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 11640 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 17:38:31.535  INFO 11640 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 17:38:32.640  INFO 11640 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.141 seconds (JVM running for 185.314)
+2021-04-19 17:50:11.329  INFO 16620 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 16620 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 17:50:11.331  INFO 16620 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 17:50:15.853  INFO 16620 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 5.034 seconds (JVM running for 7.458)
+2021-04-19 17:50:24.881  WARN 16620 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [279] milliseconds.
+2021-04-19 17:54:17.981  INFO 7440 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 7440 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 17:54:17.983  INFO 7440 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 17:54:22.138  INFO 7440 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.782 seconds (JVM running for 6.189)
+2021-04-19 17:56:01.153  INFO 17772 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 17772 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 17:56:01.156  INFO 17772 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 17:56:04.716  INFO 17772 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.101 seconds (JVM running for 5.104)
+2021-04-19 17:56:10.044  WARN 17772 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [322] milliseconds.
+2021-04-19 17:57:15.866  INFO 12084 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 12084 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 17:57:15.869  INFO 12084 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 17:57:19.396  INFO 12084 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.031 seconds (JVM running for 5.028)
+2021-04-19 17:57:22.471  WARN 12084 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [274] milliseconds.
+2021-04-19 18:13:52.049  INFO 2280 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 2280 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 18:13:52.051  INFO 2280 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 18:13:55.784  INFO 2280 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.212 seconds (JVM running for 5.24)
+2021-04-19 18:14:00.502  WARN 2280 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [257] milliseconds.
+2021-04-19 18:19:20.424  INFO 16824 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 16824 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 18:19:20.426  INFO 16824 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 18:19:24.219  INFO 16824 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.228 seconds (JVM running for 5.575)
+2021-04-19 18:19:31.131  WARN 16824 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [336] milliseconds.
+2021-04-19 18:20:07.646  INFO 7148 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 7148 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 18:20:07.648  INFO 7148 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 18:20:11.343  INFO 7148 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.093 seconds (JVM running for 5.984)
+2021-04-19 18:20:15.574  WARN 7148 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [282] milliseconds.
+2021-04-19 18:27:18.630  WARN 7148 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m9s44ms430µs595ns).
+2021-04-19 18:33:07.141  INFO 19920 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 19920 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 18:33:07.143  INFO 19920 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 18:33:11.376  INFO 19920 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.931 seconds (JVM running for 6.494)
+2021-04-19 18:34:12.873  WARN 19920 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s468ms477µs532ns).
+2021-04-19 18:34:32.820  INFO 10744 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 10744 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 18:34:32.822  INFO 10744 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 18:34:36.530  INFO 10744 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.19 seconds (JVM running for 5.497)
+2021-04-19 22:40:04.713  INFO 3368 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 3368 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-19 22:40:04.716  INFO 3368 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-19 22:40:11.443  INFO 3368 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 7.762 seconds (JVM running for 11.699)
+2021-04-19 22:40:28.875  WARN 3368 --- [http-nio-8081-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [337] milliseconds.

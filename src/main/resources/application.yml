@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    cache: false
+  profiles:
+    active: pro
+
+  mvc:
+    view:
+      suffix: .html
+      prefix: /
+
+comment.avatar: /images/avatar.png

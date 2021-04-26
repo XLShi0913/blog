@@ -1,0 +1,1232 @@
+2021-04-16 00:22:18.342  INFO 22192 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 22192 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:22:18.348  INFO 22192 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:22:21.697  INFO 22192 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.961 seconds (JVM running for 5.412)
+2021-04-16 00:23:01.381  INFO 21700 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 21700 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:23:01.383  INFO 21700 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:23:03.259  INFO 21700 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.302 seconds (JVM running for 3.607)
+2021-04-16 00:26:46.541  INFO 24660 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 24660 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:26:46.543  INFO 24660 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:26:48.508  INFO 24660 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.474 seconds (JVM running for 3.812)
+2021-04-16 00:28:12.439  INFO 22400 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 22400 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:28:12.441  INFO 22400 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:28:14.324  INFO 22400 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.311 seconds (JVM running for 3.601)
+2021-04-16 00:46:05.321  INFO 13436 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13436 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:46:05.323  INFO 13436 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:46:07.521  INFO 13436 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.62 seconds (JVM running for 3.907)
+2021-04-16 00:47:37.947  INFO 13260 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13260 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:47:37.950  INFO 13260 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:47:40.031  INFO 13260 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.606 seconds (JVM running for 4.125)
+2021-04-16 00:48:16.365  INFO 13260 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13260 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:48:16.365  INFO 13260 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:48:16.837  INFO 13260 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.512 seconds (JVM running for 40.932)
+2021-04-16 00:52:58.680  INFO 6924 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 6924 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:52:58.682  INFO 6924 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:53:00.772  INFO 6924 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.512 seconds (JVM running for 3.953)
+2021-04-16 00:55:58.533  INFO 8900 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8900 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 00:55:58.535  INFO 8900 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 00:56:00.517  INFO 8900 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.425 seconds (JVM running for 3.842)
+2021-04-16 01:00:02.027  INFO 14860 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 14860 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 01:00:02.029  INFO 14860 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 01:00:03.963  INFO 14860 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.414 seconds (JVM running for 3.881)
+2021-04-16 01:06:06.869  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 19556 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 01:06:06.871  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 01:06:08.941  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.533 seconds (JVM running for 4.005)
+2021-04-16 01:06:47.126  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 19556 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 01:06:47.127  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 01:06:47.518  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.423 seconds (JVM running for 42.581)
+2021-04-16 01:06:56.262 ERROR 19556 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+
+java.lang.ArithmeticException: / by zero
+	at com.example.blog.web.IndexController.getindex(IndexController.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 01:07:13.103  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 19556 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 01:07:13.103  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 01:07:13.515  INFO 19556 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.445 seconds (JVM running for 68.579)
+2021-04-16 11:46:11.713  INFO 19736 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 19736 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 11:46:11.715  INFO 19736 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 11:46:15.111  INFO 19736 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.082 seconds (JVM running for 5.73)
+2021-04-16 11:51:55.227  INFO 8728 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8728 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 11:51:55.230  INFO 8728 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 11:51:57.383  INFO 8728 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.673 seconds (JVM running for 3.982)
+2021-04-16 11:52:07.591 ERROR 8728 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+
+java.lang.ArithmeticException: / by zero
+	at com.example.blog.web.IndexController.getindex(IndexController.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 12:03:20.883  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 20132 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 12:03:20.886  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 12:03:23.982  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.697 seconds (JVM running for 5.048)
+2021-04-16 12:03:54.894  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 20132 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 12:03:54.894  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 12:03:55.715  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.912 seconds (JVM running for 36.78)
+2021-04-16 12:04:06.733 ERROR 20132 --- [http-nio-8081-exec-4] c.e.b.h.ControllerExceptionHandler       : Requst URL : /, Exception : {}
+
+java.lang.ArithmeticException: / by zero
+	at com.example.blog.web.IndexController.getindex(IndexController.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 12:04:06.735  WARN 20132 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.ArithmeticException: / by zero]
+2021-04-16 12:16:19.668 ERROR 20132 --- [http-nio-8081-exec-5] c.e.b.h.ControllerExceptionHandler       : Requst URL : /, Exception : {}
+
+java.lang.ArithmeticException: / by zero
+	at com.example.blog.web.IndexController.getindex(IndexController.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 12:16:19.668  WARN 20132 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.ArithmeticException: / by zero]
+2021-04-16 12:26:20.137  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 20132 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 12:26:20.138  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 12:26:20.638  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.545 seconds (JVM running for 1381.704)
+2021-04-16 12:26:22.582  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 20132 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 12:26:22.582  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 12:26:23.084  INFO 20132 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.535 seconds (JVM running for 1384.15)
+2021-04-16 12:26:26.367 ERROR 20132 --- [http-nio-8081-exec-1] c.e.b.h.ControllerExceptionHandler       : Requst URL : /, Exception : {}
+
+com.example.blog.exception.NotFoundException: 博客不存在
+	at com.example.blog.web.IndexController.getindex(IndexController.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 12:26:26.370  WARN 20132 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.blog.exception.NotFoundException: 博客不存在]
+2021-04-16 12:28:07.880  INFO 21372 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 21372 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 12:28:07.882  INFO 21372 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 12:28:10.687  INFO 21372 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.425 seconds (JVM running for 5.093)
+2021-04-16 12:28:13.926 ERROR 21372 --- [http-nio-8081-exec-1] c.e.b.h.ControllerExceptionHandler       : Requst URL : /, Exception : {}
+
+com.example.blog.exception.NotFoundException: 博客不存在
+	at com.example.blog.web.IndexController.getindex(IndexController.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 12:28:13.930  WARN 21372 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.blog.exception.NotFoundException: 博客不存在]
+2021-04-16 12:28:57.685  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 19820 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 12:28:57.689  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 12:28:59.730  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.608 seconds (JVM running for 3.802)
+2021-04-16 12:29:02.539 ERROR 19820 --- [http-nio-8081-exec-1] c.e.b.h.ControllerExceptionHandler       : Requst URL : /, Exception : {}
+
+com.example.blog.exception.NotFoundException: 博客不存在
+	at com.example.blog.web.IndexController.getindex(IndexController.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 12:29:02.545  WARN 19820 --- [http-nio-8081-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.blog.exception.NotFoundException: 博客不存在]
+2021-04-16 12:57:27.209  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 19820 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 12:57:27.210  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 12:57:27.780  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.624 seconds (JVM running for 1711.852)
+2021-04-16 12:57:29.690  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 19820 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 12:57:29.690  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 12:57:30.240  INFO 19820 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.598 seconds (JVM running for 1714.313)
+2021-04-16 12:57:34.611 ERROR 19820 --- [http-nio-8081-exec-2] c.e.b.h.ControllerExceptionHandler       : Requst URL : /, Exception : {}
+
+com.example.blog.exception.NotFoundException: 博客不存在
+	at com.example.blog.web.IndexController.getindex(IndexController.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 12:57:34.615  WARN 19820 --- [http-nio-8081-exec-2] .w.s.m.a.ResponseStatusExceptionResolver : Resolved [com.example.blog.exception.NotFoundException: 博客不存在]
+2021-04-16 16:03:12.714  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23912 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:03:12.717  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:03:17.381  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 5.396 seconds (JVM running for 7.791)
+2021-04-16 16:05:18.343  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23912 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:05:18.344  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:05:19.443  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.154 seconds (JVM running for 129.854)
+2021-04-16 16:05:21.483  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23912 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:05:21.484  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:05:22.370  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.917 seconds (JVM running for 132.781)
+2021-04-16 16:05:29.360  INFO 23912 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doBefore----------
+2021-04-16 16:05:29.371  INFO 23912 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : {}index
+2021-04-16 16:05:29.372  INFO 23912 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 16:06:43.848  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23912 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:06:43.848  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:06:44.554  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.736 seconds (JVM running for 214.964)
+2021-04-16 16:06:46.546  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23912 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:06:46.546  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:06:47.255  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.736 seconds (JVM running for 217.666)
+2021-04-16 16:06:50.877  INFO 23912 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doBefore----------
+2021-04-16 16:06:50.882  INFO 23912 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 16:06:50.884  INFO 23912 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 16:18:48.484  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23912 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:18:48.484  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:18:49.227  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.772 seconds (JVM running for 939.638)
+2021-04-16 16:18:51.233  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23912 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:18:51.233  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:18:51.897  INFO 23912 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.691 seconds (JVM running for 942.309)
+2021-04-16 16:19:03.163  INFO 23912 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/3/hello', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[3, hello]}
+2021-04-16 16:19:03.171  INFO 23912 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 16:19:03.171  INFO 23912 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 16:51:56.893  INFO 22800 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 22800 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:51:56.895  INFO 22800 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:52:01.124  INFO 22800 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.938 seconds (JVM running for 6.808)
+2021-04-16 16:52:22.695  INFO 22800 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 16:52:22.704  INFO 22800 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 16:52:22.704  INFO 22800 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 16:52:22.819 ERROR 22800 --- [http-nio-8081-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8081-exec-1] Exception processing template "index": Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 16:52:22.822 ERROR 22800 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 16:54:03.502  INFO 4364 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 4364 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:54:03.503  INFO 4364 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:54:05.989  INFO 4364 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.953 seconds (JVM running for 4.277)
+2021-04-16 16:54:14.332  INFO 4364 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 16:54:14.342  INFO 4364 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 16:54:14.343  INFO 4364 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 16:54:14.351 ERROR 4364 --- [http-nio-8081-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8081-exec-2] Exception processing template "index": Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 16:54:14.353 ERROR 4364 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [index], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-16 16:58:26.957  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8532 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 16:58:26.959  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 16:58:29.948  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.383 seconds (JVM running for 4.839)
+2021-04-16 16:58:37.187  INFO 8532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 16:58:37.197  INFO 8532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 16:58:37.197  INFO 8532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 16:58:46.399  INFO 8532 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 16:58:46.399  INFO 8532 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 16:58:46.399  INFO 8532 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:02:02.594  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8532 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 17:02:02.595  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 17:02:03.805  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.268 seconds (JVM running for 218.696)
+2021-04-16 17:02:06.026  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8532 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 17:02:06.027  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 17:02:06.778  INFO 8532 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.781 seconds (JVM running for 221.67)
+2021-04-16 17:02:08.310  INFO 8532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:02:08.315  INFO 8532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:02:08.316  INFO 8532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:02:26.047  INFO 3060 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 3060 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 17:02:26.050  INFO 3060 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 17:02:28.933  INFO 3060 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.347 seconds (JVM running for 4.848)
+2021-04-16 17:02:41.372  INFO 3060 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:02:41.381  INFO 3060 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:02:41.382  INFO 3060 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:02:44.250  INFO 3060 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:02:44.251  INFO 3060 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:02:44.251  INFO 3060 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:02:48.535  INFO 3060 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:02:48.536  INFO 3060 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:02:48.537  INFO 3060 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:03:33.454  INFO 3060 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:03:33.454  INFO 3060 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:03:33.454  INFO 3060 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:08:22.291  INFO 3060 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:08:22.293  INFO 3060 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:08:22.293  INFO 3060 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:24:23.847  INFO 11764 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 11764 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 17:24:23.849  INFO 11764 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 17:24:27.067  INFO 11764 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.76 seconds (JVM running for 5.215)
+2021-04-16 17:24:29.608  INFO 11764 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:24:29.621  INFO 11764 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:24:29.621  INFO 11764 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:35:10.802  INFO 11764 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:35:10.809  INFO 11764 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:35:10.810  INFO 11764 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:35:49.408  INFO 11764 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:35:49.409  INFO 11764 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:35:49.409  INFO 11764 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:47:45.846  INFO 11764 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 17:47:45.851  INFO 11764 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 17:47:45.852  INFO 11764 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:53:39.720  INFO 11764 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 11764 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 17:53:39.721  INFO 11764 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 17:53:40.619  INFO 11764 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.937 seconds (JVM running for 1758.767)
+2021-04-16 17:53:45.232  INFO 11764 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getblog', args=[]}
+2021-04-16 17:53:45.237  INFO 11764 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-16 17:53:45.237  INFO 11764 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 17:59:32.493  INFO 11764 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getblog', args=[]}
+2021-04-16 17:59:32.494  INFO 11764 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-16 17:59:32.495  INFO 11764 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 18:01:23.765  INFO 11764 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getblog', args=[]}
+2021-04-16 18:01:23.766  INFO 11764 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-16 18:01:23.766  INFO 11764 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 21:46:28.838  INFO 15400 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 15400 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 21:46:28.840  INFO 15400 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 21:46:33.646  INFO 15400 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 5.539 seconds (JVM running for 7.593)
+2021-04-16 21:46:40.538  INFO 15400 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 21:46:40.550  INFO 15400 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 21:46:40.551  INFO 15400 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 21:49:21.585  INFO 15400 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 21:49:21.586  INFO 15400 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 21:49:21.586  INFO 15400 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 22:05:01.482  INFO 20200 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 20200 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:05:01.485  INFO 20200 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:05:04.286  INFO 20200 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.242 seconds (JVM running for 4.528)
+2021-04-16 22:05:11.177  INFO 20200 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 22:05:11.186  INFO 20200 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 22:05:11.187  INFO 20200 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 22:06:15.082  INFO 3088 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 3088 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:06:15.084 DEBUG 3088 --- [restartedMain] com.example.blog.BlogApplication         : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-16 22:06:15.084  INFO 3088 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:06:15.119  INFO 3088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-16 22:06:15.119  INFO 3088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-16 22:06:15.570  INFO 3088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 22:06:15.583  INFO 3088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2021-04-16 22:06:16.129  INFO 3088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-16 22:06:16.136  INFO 3088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-16 22:06:16.136  INFO 3088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 22:06:16.138  INFO 3088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-04-16 22:06:16.138  INFO 3088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-16 22:06:16.138  INFO 3088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-16 22:06:16.142  INFO 3088 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-04-16 22:06:16.248  INFO 3088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-16 22:06:16.248  INFO 3088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1128 ms
+2021-04-16 22:06:16.409  INFO 3088 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-16 22:06:16.443  INFO 3088 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-16 22:06:16.525  INFO 3088 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16 22:06:16.596  INFO 3088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-16 22:06:16.708  INFO 3088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-16 22:06:16.721  INFO 3088 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-16 22:06:17.158  INFO 3088 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16 22:06:17.165  INFO 3088 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 22:06:17.391  INFO 3088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-16 22:06:17.467  INFO 3088 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-16 22:06:17.847  INFO 3088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-16 22:06:17.877  INFO 3088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-16 22:06:17.887  INFO 3088 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.258 seconds (JVM running for 4.539)
+2021-04-16 22:06:49.274  INFO 3088 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-16 22:06:49.274  INFO 3088 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-16 22:06:49.275  INFO 3088 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-16 22:06:49.294  INFO 3088 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 22:06:49.303  INFO 3088 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 22:06:49.303  INFO 3088 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 22:07:21.728  INFO 3088 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 22:07:21.728  INFO 3088 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 22:07:21.729  INFO 3088 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 22:21:49.095  INFO 23864 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23864 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:21:49.096 DEBUG 23864 --- [restartedMain] com.example.blog.BlogApplication         : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-16 22:21:49.097  INFO 23864 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:21:49.148  INFO 23864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-16 22:21:49.148  INFO 23864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-16 22:21:49.804  INFO 23864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 22:21:49.819  INFO 23864 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2021-04-16 22:21:50.607  INFO 23864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-16 22:21:50.617  INFO 23864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-16 22:21:50.618  INFO 23864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-16 22:21:50.619  INFO 23864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.27] using APR version [1.7.0].
+2021-04-16 22:21:50.620  INFO 23864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-16 22:21:50.620  INFO 23864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-16 22:21:50.641  INFO 23864 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-04-16 22:21:50.754  INFO 23864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-16 22:21:50.755  INFO 23864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1605 ms
+2021-04-16 22:21:50.977  INFO 23864 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-16 22:21:51.037  INFO 23864 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-16 22:21:51.172  INFO 23864 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16 22:21:51.279  INFO 23864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-16 22:21:51.807  INFO 23864 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-16 22:21:51.825  INFO 23864 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-04-16 22:21:52.374  INFO 23864 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16 22:21:52.382  INFO 23864 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 22:21:52.635  INFO 23864 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-16 22:21:52.728  INFO 23864 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-16 22:21:53.117  INFO 23864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-16 22:21:53.150  INFO 23864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-04-16 22:21:53.160  INFO 23864 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.775 seconds (JVM running for 7.111)
+2021-04-16 22:22:06.353  INFO 23864 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-16 22:22:06.354  INFO 23864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-16 22:22:06.355  INFO 23864 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-16 22:22:06.378  INFO 23864 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 22:22:06.386  INFO 23864 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 22:22:06.386  INFO 23864 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 22:34:38.732  INFO 11756 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 11756 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:34:38.734  INFO 11756 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:34:41.685  INFO 11756 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.48 seconds (JVM running for 4.913)
+2021-04-16 22:34:48.192  INFO 11756 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 22:34:48.202  INFO 11756 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 22:34:48.202  INFO 11756 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 22:37:57.162  INFO 17884 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 17884 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:37:57.164  INFO 17884 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:38:00.244  INFO 17884 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.53 seconds (JVM running for 4.927)
+2021-04-16 22:38:05.701  INFO 17884 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 22:38:05.711  INFO 17884 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 22:38:05.711  INFO 17884 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 22:38:35.778  INFO 1572 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 1572 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:38:35.780  INFO 1572 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:38:38.602  INFO 1572 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.266 seconds (JVM running for 4.608)
+2021-04-16 22:40:26.148  INFO 1572 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 1572 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:40:26.148  INFO 1572 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:40:26.956  INFO 1572 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.85 seconds (JVM running for 112.962)
+2021-04-16 22:40:34.147  INFO 1572 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 22:40:34.164  INFO 1572 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 22:40:34.164  INFO 1572 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 22:47:07.343  INFO 22780 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 22780 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:47:07.344  INFO 22780 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:47:10.677  INFO 22780 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.803 seconds (JVM running for 5.253)
+2021-04-16 22:47:43.464  INFO 10740 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 10740 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:47:43.467  INFO 10740 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:47:48.169 ERROR 10740 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.example.blog.BlogApplication.main(BlogApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	... 55 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 58 common frames omitted
+
+2021-04-16 22:47:48.171  WARN 10740 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:453)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.example.blog.BlogApplication.main(BlogApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:953)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+	... 55 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 58 common frames omitted
+
+2021-04-16 22:47:48.173 ERROR 10740 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2021-04-16 22:47:48.174  WARN 10740 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2021-04-16 22:47:48.208 ERROR 10740 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.example.blog.BlogApplication.main(BlogApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 22 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 39 common frames omitted
+
+2021-04-16 22:50:10.543  INFO 23764 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23764 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:50:10.545  INFO 23764 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:50:12.136  WARN 23764 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-04-16 22:50:13.405  INFO 23764 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.34 seconds (JVM running for 4.722)
+2021-04-16 22:51:34.136  INFO 23764 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23764 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 22:51:34.136  INFO 23764 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 22:51:34.966  INFO 23764 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 0.87 seconds (JVM running for 86.283)
+2021-04-16 23:10:58.930  INFO 23784 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23784 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:10:58.934  INFO 23784 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:11:02.192  INFO 23784 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.746 seconds (JVM running for 5.119)
+2021-04-16 23:11:27.138  INFO 23784 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 23:11:27.150  INFO 23784 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 23:11:27.151  INFO 23784 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 23:15:23.752  INFO 2112 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 2112 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:15:23.754  INFO 2112 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:15:26.787  INFO 2112 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.543 seconds (JVM running for 5.405)
+2021-04-16 23:25:11.526  INFO 13300 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13300 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:25:11.528  INFO 13300 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:25:14.359  INFO 13300 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.295 seconds (JVM running for 4.681)
+2021-04-16 23:28:11.900  INFO 18912 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 18912 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:28:11.902  INFO 18912 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:28:14.704  INFO 18912 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.233 seconds (JVM running for 4.639)
+2021-04-16 23:29:22.939  INFO 18912 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.getindex', args=[]}
+2021-04-16 23:29:22.949  INFO 18912 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-16 23:29:22.949  INFO 18912 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-16 23:33:47.082  INFO 12368 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 12368 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:33:47.084  INFO 12368 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:33:49.823  INFO 12368 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.217 seconds (JVM running for 4.734)
+2021-04-16 23:37:31.330  INFO 8720 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8720 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:37:31.332  INFO 8720 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:37:34.570  INFO 8720 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.712 seconds (JVM running for 5.076)
+2021-04-16 23:39:56.061  INFO 8624 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8624 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:39:56.063  INFO 8624 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:39:58.960  INFO 8624 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.383 seconds (JVM running for 4.809)
+2021-04-16 23:42:02.652  INFO 8044 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8044 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:42:02.654  INFO 8044 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:42:05.507  INFO 8044 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.329 seconds (JVM running for 4.731)
+2021-04-16 23:45:48.553  INFO 12536 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 12536 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:45:48.555  INFO 12536 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:45:51.433  INFO 12536 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.334 seconds (JVM running for 4.671)
+2021-04-16 23:51:22.826  INFO 8520 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8520 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:51:22.829  INFO 8520 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:51:26.935  INFO 8520 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.689 seconds (JVM running for 6.457)
+2021-04-16 23:51:39.202  INFO 3900 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 3900 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:51:39.207  INFO 3900 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:51:42.165  INFO 3900 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 3.479 seconds (JVM running for 4.811)
+2021-04-16 23:57:38.611  INFO 3900 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 3900 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-16 23:57:38.612  INFO 3900 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-16 23:57:40.283  INFO 3900 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.732 seconds (JVM running for 362.928)
