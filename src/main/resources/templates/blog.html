@@ -201,19 +201,21 @@
                 <div class="m-padded-lr">
                     <div class="ui basic teal left pointing label" th:each="tag : ${blog.tags}" th:text="${tag.name}">方法论</div>
                 </div>
-                <div class="ui center aligned basic segment">
-                    <button id="payButton" class="ui orange basic circular button">赞赏</button>
-                </div>
-                <div class="ui payQR flowing popup transition hidden">
-                    <div class="ui basic orange label">
-                        <div class="ui images" style="font-size: inherit !important;">
-                            <div class="image">
-                                <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded bordered image" style="width: 120px">
-                                <div>支付宝</div>
-                            </div>
-                            <div class="image">
-                                <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded bordered image" style="width: 120px">
-                                <div>微信</div>
+                <div th:if="${blog.appreciation}">
+                    <div class="ui center aligned basic segment">
+                        <button id="payButton" class="ui orange basic circular button">赞赏</button>
+                    </div>
+                    <div class="ui payQR flowing popup transition hidden">
+                        <div class="ui basic orange label">
+                            <div class="ui images" style="font-size: inherit !important;">
+                                <div class="image">
+                                    <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded bordered image" style="width: 120px">
+                                    <div>支付宝</div>
+                                </div>
+                                <div class="image">
+                                    <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded bordered image" style="width: 120px">
+                                    <div>微信</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -221,7 +223,7 @@
 
             </div>
             <!--博客信息-->
-            <div class="ui attached positive message">
+            <div class="ui attached positive message" th:if="${blog.shareStatement}">
                 <div class="ui middle aligned grid">
                     <div class="eleven wide column">
                         <ul class="list">
@@ -243,7 +245,7 @@
                 </div>
             </div>
             <!--留言区域-->
-            <div class="ui bottom attached segment">
+            <div class="ui bottom attached segment" th:if="${blog.commentable}">
                 <!--留言列表-->
                 <div id="comment-container" class="ui teal segment">
                     <div th:fragment="commentList">
@@ -480,7 +482,7 @@
             position : 'left center'
         });
 
-        var serurl = "127.0.0.0:8081";
+        var serurl = /*[[#{blog.serurl}]]*/"127.0.0.0:8081";
         var url = /*[[@{/blog/{id}(id=${blog.id})}]]*/"";
         var qrcode = new QRCode("qrcode", {
             text: serurl+url,

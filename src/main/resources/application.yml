@@ -5,10 +5,11 @@ spring:
     cache: false
   profiles:
     active: pro
-
   mvc:
     view:
       suffix: .html
       prefix: /
+  messages:
+    basename: i18n/messages
 
 comment.avatar: /images/avatar.png
