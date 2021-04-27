@@ -1,0 +1,1342 @@
+2021-04-24 14:12:18.830  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13160 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 14:12:18.837  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 14:12:24.842  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.697 seconds (JVM running for 8.459)
+2021-04-24 14:12:34.678  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-04-24 14:12:34.878  WARN 13160 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 14:12:34.943  WARN 13160 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 14:12:35.011  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-24 14:12:35.012  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:12:41.079  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:12:41.189  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:12:41.189  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:14:24.588  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:14:24.636  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:14:24.637  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:14:45.624  INFO 13160 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小白', email='2722316138@qq.com', content='测试评论功能', avatar='null', creatTime=null}]}
+2021-04-24 14:14:45.731  INFO 13160 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 14:14:45.731  INFO 13160 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:14:45.742  INFO 13160 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 14:14:45.788  INFO 13160 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 14:14:45.789  INFO 13160 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:15:19.690  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:15:19.736  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:15:19.736  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:15:25.356  INFO 13160 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:15:25.389  INFO 13160 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:15:25.389  INFO 13160 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:15:57.438  INFO 13160 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小粉', email='2722316138@qq.com', content='测试评论功能', avatar='null', creatTime=null}]}
+2021-04-24 14:15:57.484  INFO 13160 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 14:15:57.484  INFO 13160 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:15:57.490  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 14:15:57.520  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 14:15:57.521  INFO 13160 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:18:07.171  INFO 13160 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小粉', email='2722316138@qq.com', content='测试回复功能', avatar='null', creatTime=null}]}
+2021-04-24 14:18:07.243  INFO 13160 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 14:18:07.243  INFO 13160 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:18:07.246  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 14:18:07.277  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 14:18:07.277  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:18:56.747  INFO 13160 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:18:56.794  INFO 13160 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:18:56.795  INFO 13160 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:21:34.760  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13160 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 14:21:34.760  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 14:21:36.183  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.462 seconds (JVM running for 559.8)
+2021-04-24 14:21:38.338  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13160 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 14:21:38.338  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 14:21:39.461  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.152 seconds (JVM running for 563.078)
+2021-04-24 14:21:48.358  INFO 13160 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:21:48.400  INFO 13160 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:21:48.401  INFO 13160 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:21:48.480 ERROR 13160 --- [http-nio-8081-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8081-exec-3] Exception processing template "blog": An error happened during template parsing (template: "class path resource [templates/blog.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/blog.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.attoparser.ParseException: failed to lazily initialize a collection of role: com.example.blog.po.Blog.comments, could not initialize proxy - no Session
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.example.blog.po.Blog.comments, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:606)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149)
+	at org.hibernate.collection.internal.PersistentBag.iterator(PersistentBag.java:387)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.computeIteratedObjectIterator(IteratedGatheringModelProcessable.java:442)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.<init>(IteratedGatheringModelProcessable.java:82)
+	at org.thymeleaf.engine.TemplateModelController.startGatheringIteratedModel(TemplateModelController.java:209)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1326)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+
+2021-04-24 14:21:48.492 ERROR 13160 --- [http-nio-8081-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/blog.html]")] with root cause
+
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.example.blog.po.Blog.comments, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:606)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:218)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:585)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:149)
+	at org.hibernate.collection.internal.PersistentBag.iterator(PersistentBag.java:387)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.computeIteratedObjectIterator(IteratedGatheringModelProcessable.java:442)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.<init>(IteratedGatheringModelProcessable.java:82)
+	at org.thymeleaf.engine.TemplateModelController.startGatheringIteratedModel(TemplateModelController.java:209)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1326)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1393)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1077)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-24 14:21:48.508 ERROR 13160 --- [http-nio-8081-exec-3] s.e.ErrorMvcAutoConfiguration$StaticView : Cannot render error page for request [/blog/69] and exception [An error happened during template parsing (template: "class path resource [templates/blog.html]")] as the response has already been committed. As a result, the response may have the wrong status code.
+2021-04-24 14:22:28.722  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13160 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 14:22:28.722  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 14:22:29.839  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.148 seconds (JVM running for 613.457)
+2021-04-24 14:22:47.188  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:22:47.235  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:22:47.236  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:28:59.741  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13160 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 14:28:59.741  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 14:29:01.109  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.402 seconds (JVM running for 1004.726)
+2021-04-24 14:29:03.297  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 13160 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 14:29:03.297  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 14:29:04.481  INFO 13160 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 1.213 seconds (JVM running for 1008.098)
+2021-04-24 14:29:08.153  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:29:08.198  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:29:08.199  INFO 13160 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:29:08.713 ERROR 13160 --- [http-nio-8081-exec-4] c.e.b.h.ControllerExceptionHandler       : Requst URL : /comments, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-24 14:29:08.714  WARN 13160 --- [http-nio-8081-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-04-24 14:30:57.466  INFO 13160 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:30:57.513  INFO 13160 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:30:57.513  INFO 13160 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:30:58.114 ERROR 13160 --- [http-nio-8081-exec-10] c.e.b.h.ControllerExceptionHandler       : Requst URL : /comments, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-24 14:30:58.115  WARN 13160 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-04-24 14:32:55.709  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 5632 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 14:32:55.712  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 14:32:59.576  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.326 seconds (JVM running for 5.615)
+2021-04-24 14:33:43.010  INFO 5632 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:33:43.162  INFO 5632 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:33:43.162  INFO 5632 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:33:43.979  INFO 5632 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 14:33:44.069  INFO 5632 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 14:33:44.070  INFO 5632 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:39:59.614  INFO 5632 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 14:39:59.674  INFO 5632 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 14:39:59.675  INFO 5632 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 14:40:00.157  INFO 5632 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 14:40:00.203  INFO 5632 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 14:40:00.203  INFO 5632 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 15:00:21.364  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 5632 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 15:00:21.364  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 15:00:21.717 ERROR 5632 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.TypeNotPresentException: Type com.example.blog.po.Comment not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(ClassRepository.java:117)
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(ClassRepository.java:95)
+	at java.base/java.lang.Class.getGenericInterfaces(Class.java:1112)
+	at org.springframework.core.ResolvableType.getInterfaces(ResolvableType.java:502)
+	at org.springframework.core.GenericTypeResolver.buildTypeVariableMap(GenericTypeResolver.java:271)
+	at org.springframework.core.GenericTypeResolver.getTypeVariableMap(GenericTypeResolver.java:248)
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:115)
+	at org.springframework.data.util.ClassTypeInformation.getTypeVariableMap(ClassTypeInformation.java:104)
+	at org.springframework.data.util.ClassTypeInformation.<init>(ClassTypeInformation.java:93)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:331)
+	at org.springframework.data.util.ClassTypeInformation.from(ClassTypeInformation.java:71)
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.<init>(AbstractRepositoryMetadata.java:63)
+	at org.springframework.data.repository.core.support.DefaultRepositoryMetadata.<init>(DefaultRepositoryMetadata.java:49)
+	at org.springframework.data.repository.core.support.AbstractRepositoryMetadata.getMetadata(AbstractRepositoryMetadata.java:78)
+	at org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport.getRepositoryConfigurations(RepositoryConfigurationExtensionSupport.java:103)
+	at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:149)
+	at org.springframework.boot.autoconfigure.data.AbstractRepositoryConfigurationSourceSupport.registerBeanDefinitions(AbstractRepositoryConfigurationSourceSupport.java:62)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:396)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:395)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:157)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:129)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:343)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.example.blog.BlogApplication.main(BlogApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ClassNotFoundException: com.example.blog.po.Comment
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:375)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 46 common frames omitted
+
+2021-04-24 15:00:23.475  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 5632 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 15:00:24.301  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 15:00:25.976  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 2.524 seconds (JVM running for 1652.014)
+2021-04-24 16:09:30.675  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 5632 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 16:09:30.675  INFO 5632 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 16:09:31.966  WARN 5632 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commentServiceImpl': Unsatisfied dependency expressed through field 'commentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! No property a found for type Long! Traversed path: Comment.blog.id.
+2021-04-24 16:09:31.984 ERROR 5632 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commentServiceImpl': Unsatisfied dependency expressed through field 'commentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! No property a found for type Long! Traversed path: Comment.blog.id.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.example.blog.BlogApplication.main(BlogApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! No property a found for type Long! Traversed path: Comment.blog.id.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! No property a found for type Long! Traversed path: Comment.blog.id.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:107)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:218)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:100)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:93)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1050)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:511)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:85)
+	at java.base/java.util.Optional.map(Optional.java:257)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:85)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:303)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 36 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property a found for type Long! Traversed path: Comment.blog.id.
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:437)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:447)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:447)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:366)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:331)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:348)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:331)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:249)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:511)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:250)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:383)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:511)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:384)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 62 common frames omitted
+
+2021-04-24 16:10:02.225  INFO 5400 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 5400 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 16:10:02.227  INFO 5400 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 16:10:05.939  WARN 5400 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commentServiceImpl': Unsatisfied dependency expressed through field 'commentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! No property a found for type Long! Traversed path: Comment.blog.id.
+2021-04-24 16:10:05.974 ERROR 5400 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commentServiceImpl': Unsatisfied dependency expressed through field 'commentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! No property a found for type Long! Traversed path: Comment.blog.id.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.example.blog.BlogApplication.main(BlogApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! No property a found for type Long! Traversed path: Comment.blog.id.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! No property a found for type Long! Traversed path: Comment.blog.id.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:107)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:218)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:100)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:93)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1050)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:511)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:85)
+	at java.base/java.util.Optional.map(Optional.java:257)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:85)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:303)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 36 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property a found for type Long! Traversed path: Comment.blog.id.
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:437)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:447)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:447)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:366)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:331)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:348)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:331)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:249)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:511)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:250)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:383)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:511)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:384)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 62 common frames omitted
+
+2021-04-24 16:11:41.841  INFO 8384 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8384 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 16:11:41.843  INFO 8384 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 16:11:44.801  WARN 8384 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commentServiceImpl': Unsatisfied dependency expressed through field 'commentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+2021-04-24 16:11:44.835 ERROR 8384 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commentServiceImpl': Unsatisfied dependency expressed through field 'commentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.example.blog.BlogApplication.main(BlogApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:107)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:218)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:100)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:93)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1050)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:511)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:85)
+	at java.base/java.util.Optional.map(Optional.java:257)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:85)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:303)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalStateException: Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.throwExceptionOnArgumentMismatch(PartTreeJpaQuery.java:161)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.validate(PartTreeJpaQuery.java:147)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:90)
+	... 62 common frames omitted
+
+2021-04-24 16:12:24.047  INFO 15588 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 15588 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 16:12:24.050  INFO 15588 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 16:12:27.025  WARN 15588 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commentServiceImpl': Unsatisfied dependency expressed through field 'commentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+2021-04-24 16:12:27.059 ERROR 15588 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commentServiceImpl': Unsatisfied dependency expressed through field 'commentRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:769)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.example.blog.BlogApplication.main(BlogApplication.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'commentRepository' defined in com.example.blog.dao.CommentRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort)! Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:107)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:218)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:81)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:100)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:93)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1050)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:511)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:85)
+	at java.base/java.util.Optional.map(Optional.java:257)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:85)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:303)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalStateException: Method public abstract java.util.List com.example.blog.dao.CommentRepository.findByBlogIdAndParentCommentNot(java.lang.Long,org.springframework.data.domain.Sort) expects at least 2 arguments but only found 1. This leaves an operator of type NEGATING_SIMPLE_PROPERTY for property parentComment unbound.
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.throwExceptionOnArgumentMismatch(PartTreeJpaQuery.java:161)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.validate(PartTreeJpaQuery.java:147)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:90)
+	... 62 common frames omitted
+
+2021-04-24 16:13:28.161  INFO 21728 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 21728 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 16:13:28.164  INFO 21728 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 16:13:31.810  INFO 21728 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.077 seconds (JVM running for 5.225)
+2021-04-24 16:13:39.148  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-04-24 16:13:39.288  WARN 21728 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 16:13:39.334  WARN 21728 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 16:13:39.405  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-24 16:13:39.406  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:13:42.264  INFO 21728 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:13:42.333  INFO 21728 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:13:42.334  INFO 21728 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:13:43.372  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:13:43.438  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:13:43.438  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:14:54.435  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:14:54.475  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:14:54.476  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:14:54.906  INFO 21728 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:14:54.955  INFO 21728 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:14:54.955  INFO 21728 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:17:44.575  INFO 21728 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:17:44.614  INFO 21728 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:17:44.615  INFO 21728 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:17:45.110  INFO 21728 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:17:45.155  INFO 21728 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:17:45.155  INFO 21728 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:18:26.467  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:18:26.504  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:18:26.504  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:18:26.976  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:18:27.016  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:18:27.016  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:19:04.142 ERROR 21728 --- [http-nio-8081-exec-10] c.e.b.h.ControllerExceptionHandler       : Requst URL : /comments/69, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-24 16:19:04.143  WARN 21728 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-04-24 16:19:31.197  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:19:31.228  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:19:31.228  INFO 21728 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:19:31.661  INFO 21728 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:19:31.701  INFO 21728 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:19:31.701  INFO 21728 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:20:02.492 ERROR 21728 --- [http-nio-8081-exec-7] c.e.b.h.ControllerExceptionHandler       : Requst URL : /comments/69, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-24 16:20:02.493  WARN 21728 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-04-24 16:20:45.530  INFO 21728 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:20:45.568  INFO 21728 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:20:45.568  INFO 21728 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:20:46.232  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:20:46.282  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:20:46.282  INFO 21728 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:21:10.108 ERROR 21728 --- [http-nio-8081-exec-5] c.e.b.h.ControllerExceptionHandler       : Requst URL : /comments/69, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-24 16:21:10.110  WARN 21728 --- [http-nio-8081-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-04-24 16:23:30.583  INFO 17068 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 17068 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 16:23:30.584  INFO 17068 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 16:23:36.616  INFO 17068 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.599 seconds (JVM running for 7.987)
+2021-04-24 16:24:01.270  INFO 17068 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-04-24 16:24:01.405  WARN 17068 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 16:24:01.459  WARN 17068 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 16:24:01.559  INFO 17068 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-24 16:24:01.559  INFO 17068 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:24:04.619  INFO 17068 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:24:04.696  INFO 17068 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:24:04.697  INFO 17068 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:24:05.503  INFO 17068 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:24:05.559  INFO 17068 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:24:05.559  INFO 17068 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:24:31.112 ERROR 17068 --- [http-nio-8081-exec-8] c.e.b.h.ControllerExceptionHandler       : Requst URL : /comments/69, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:435)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:123)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1254)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1036)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+2021-04-24 16:24:31.113  WARN 17068 --- [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-04-24 16:29:05.086  INFO 17068 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:29:05.131  INFO 17068 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:29:05.131  INFO 17068 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:29:05.583  INFO 17068 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:29:05.625  INFO 17068 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:29:05.625  INFO 17068 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:32:58.132  INFO 23856 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23856 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 16:32:58.134  INFO 23856 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 16:33:02.072  INFO 23856 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.414 seconds (JVM running for 5.661)
+2021-04-24 16:34:33.622  INFO 23856 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:34:33.762  INFO 23856 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:34:33.762  INFO 23856 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:34:34.551  INFO 23856 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:34:34.652  INFO 23856 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:34:34.653  INFO 23856 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:35:01.034  INFO 23856 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='老白', email='laobai@163.com', content='老白回复小粉', avatar='null', creatTime=null}]}
+2021-04-24 16:35:01.279  INFO 23856 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 16:35:01.279  INFO 23856 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:35:01.290  INFO 23856 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:35:01.338  INFO 23856 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:35:01.339  INFO 23856 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:36:08.260  INFO 23856 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小黄', email='xiaohuang@163.com', content='新的评论', avatar='null', creatTime=null}]}
+2021-04-24 16:36:08.352  INFO 23856 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 16:36:08.352  INFO 23856 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:36:08.356  INFO 23856 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:36:08.396  INFO 23856 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:36:08.397  INFO 23856 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:39:20.351  INFO 23856 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:39:20.391  INFO 23856 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:39:20.391  INFO 23856 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:39:20.867  INFO 23856 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:39:20.915  INFO 23856 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:39:20.916  INFO 23856 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:39:44.637  INFO 23856 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小蓝', email='xiaolan@163.com', content='小蓝的评论', avatar='null', creatTime=null}]}
+2021-04-24 16:39:44.701  INFO 23856 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 16:39:44.702  INFO 23856 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:39:44.705  INFO 23856 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:39:44.743  INFO 23856 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:39:44.743  INFO 23856 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:51:55.908  INFO 15724 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 15724 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 16:51:55.910  INFO 15724 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 16:52:00.054  INFO 15724 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.762 seconds (JVM running for 6.122)
+2021-04-24 16:52:05.657  INFO 15724 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 16:52:05.821  INFO 15724 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 16:52:05.821  INFO 15724 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 16:52:06.668  INFO 15724 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 16:52:06.777  INFO 15724 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 16:52:06.778  INFO 15724 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:18:02.081  INFO 23980 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23980 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:18:02.083  INFO 23980 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:18:07.146  INFO 23980 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 5.595 seconds (JVM running for 6.887)
+2021-04-24 17:18:21.328  INFO 23980 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-04-24 17:18:21.485  WARN 23980 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 17:18:21.547  WARN 23980 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 17:18:21.623  INFO 23980 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-24 17:18:21.624  INFO 23980 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:18:22.880  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:18:22.982  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:18:22.983  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:18:23.933  INFO 23980 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:18:24.002  INFO 23980 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:18:24.002  INFO 23980 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:18:49.400  WARN 23980 --- [http-nio-8081-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [343] milliseconds.
+2021-04-24 17:18:55.150  INFO 23980 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:18:55.196  INFO 23980 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:18:55.196  INFO 23980 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:18:55.658  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:18:55.701  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:18:55.702  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:19:13.204  INFO 23980 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小虾米', email='xueli_shi@foxmail.com', content='管理员评论', avatar='null', creatTime=null, blog=Blog{id=69, title='null', content='null', description='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentable=false, published=false, recommend=false, tagIds='null', createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[]}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', creatTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@74beb5b6]}
+2021-04-24 17:19:13.302  INFO 23980 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 17:19:13.302  INFO 23980 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:19:13.317  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:19:13.362  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:19:13.363  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:19:59.634  INFO 23980 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:19:59.671  INFO 23980 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:19:59.671  INFO 23980 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:20:00.167  INFO 23980 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:20:00.224  INFO 23980 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:20:00.224  INFO 23980 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:20:15.996  INFO 23980 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小虾米', email='xueli_shi@foxmail.com', content='回复小蓝', avatar='null', creatTime=null, blog=Blog{id=69, title='null', content='null', description='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentable=false, published=false, recommend=false, tagIds='null', createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[]}, replyComments=[], parentComment=Comment{id=80, nickname='null', email='null', content='null', avatar='null', creatTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@74beb5b6]}
+2021-04-24 17:20:16.088  INFO 23980 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 17:20:16.088  INFO 23980 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:20:16.091  INFO 23980 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:20:16.134  INFO 23980 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:20:16.135  INFO 23980 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:20:30.987  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小虾米', email='xueli_shi@foxmail.com', content='管理员评论2', avatar='null', creatTime=null, blog=Blog{id=69, title='null', content='null', description='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentable=false, published=false, recommend=false, tagIds='null', createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[]}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', creatTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@74beb5b6]}
+2021-04-24 17:20:31.061  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 17:20:31.061  INFO 23980 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:20:31.067  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:20:31.110  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:20:31.110  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:22:14.076  INFO 23980 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小虾米', email='xueli_shi@foxmail.com', content='回复自己', avatar='null', creatTime=null, blog=Blog{id=69, title='null', content='null', description='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentable=false, published=false, recommend=false, tagIds='null', createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[]}, replyComments=[], parentComment=Comment{id=81, nickname='null', email='null', content='null', avatar='null', creatTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@74beb5b6]}
+2021-04-24 17:22:14.144  INFO 23980 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 17:22:14.144  INFO 23980 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:22:14.148  INFO 23980 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:22:14.188  INFO 23980 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:22:14.188  INFO 23980 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:24:15.727  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:24:15.758  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:24:15.758  INFO 23980 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:24:16.191  INFO 23980 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:24:16.234  INFO 23980 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:24:16.234  INFO 23980 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:25:06.458  INFO 21680 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 21680 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:25:06.459  INFO 21680 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:25:10.290  INFO 21680 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.29 seconds (JVM running for 5.461)
+2021-04-24 17:25:13.910  INFO 21680 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:25:14.123  INFO 21680 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:25:14.124  INFO 21680 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:25:14.902  INFO 21680 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:25:15.012  INFO 21680 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:25:15.012  INFO 21680 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:25:47.360  WARN 21680 --- [http-nio-8081-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [371] milliseconds.
+2021-04-24 17:25:52.011  INFO 21680 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:25:52.053  INFO 21680 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:25:52.053  INFO 21680 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:25:52.531  INFO 21680 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:25:52.608  INFO 21680 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:25:52.608  INFO 21680 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:26:02.702  INFO 6920 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 6920 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:26:02.704  INFO 6920 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:26:07.072  INFO 6920 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.805 seconds (JVM running for 6.931)
+2021-04-24 17:26:15.601  WARN 6920 --- [http-nio-8081-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [338] milliseconds.
+2021-04-24 17:26:19.301  INFO 6920 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:26:19.433  INFO 6920 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:26:19.433  INFO 6920 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:26:20.026  INFO 6920 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:26:20.125  INFO 6920 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:26:20.126  INFO 6920 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:26:30.451  INFO 6920 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.post', args=[Comment{id=null, nickname='小虾米', email='xueli_shi@foxmail.com', content='管理员评论3', avatar='null', creatTime=null, blog=Blog{id=69, title='null', content='null', description='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, commentable=false, published=false, recommend=false, tagIds='null', createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[]}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', creatTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@28311785]}
+2021-04-24 17:27:07.044  WARN 6920 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s170ms943µs964ns).
+2021-04-24 17:27:38.194  INFO 6920 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : redirect:/comments/69
+2021-04-24 17:27:38.207  INFO 6920 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:27:38.228  INFO 6920 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:27:38.279  INFO 6920 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:27:38.279  INFO 6920 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:29:59.367  INFO 15100 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 15100 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:29:59.370  INFO 15100 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:30:03.409  INFO 15100 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.491 seconds (JVM running for 5.838)
+2021-04-24 17:30:03.481  INFO 15100 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:30:03.669  INFO 15100 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:30:03.669  INFO 15100 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:30:04.962  INFO 15100 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:30:05.114  INFO 15100 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:30:05.115  INFO 15100 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:30:36.185  INFO 17020 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 17020 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:30:36.187  INFO 17020 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:30:40.671  INFO 17020 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 5.009 seconds (JVM running for 6.339)
+2021-04-24 17:30:46.918  INFO 17020 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:30:47.142  INFO 17020 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:30:47.142  INFO 17020 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:30:47.913  INFO 17020 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:33:15.020  WARN 17020 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m36s465ms803µs804ns).
+2021-04-24 17:33:15.055  INFO 17020 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:33:15.055  INFO 17020 --- [http-nio-8081-exec-6] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:33:30.138  INFO 21924 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 21924 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:33:30.140  INFO 21924 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:33:34.497  INFO 21924 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.866 seconds (JVM running for 6.29)
+2021-04-24 17:33:41.233  INFO 21924 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:33:41.419  INFO 21924 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:33:41.419  INFO 21924 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:33:42.240  INFO 21924 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:34:17.481  WARN 21924 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s79ms850µs747ns).
+2021-04-24 17:34:25.963  INFO 21924 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:34:25.963  INFO 21924 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:34:43.092  INFO 24228 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 24228 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:34:43.094  INFO 24228 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:34:47.312  INFO 24228 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.76 seconds (JVM running for 6.239)
+2021-04-24 17:34:53.624  INFO 24228 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:34:53.822  INFO 24228 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:34:53.822  INFO 24228 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:34:54.606  INFO 24228 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:36:31.642  INFO 24228 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:36:31.643  INFO 24228 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:37:28.607  INFO 23720 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23720 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:37:28.609  INFO 23720 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:37:32.878  INFO 23720 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.852 seconds (JVM running for 6.278)
+2021-04-24 17:37:36.923  INFO 23720 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:37:37.140  INFO 23720 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:37:37.140  INFO 23720 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:37:37.963  INFO 23720 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:38:42.276  INFO 23720 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:38:42.277  INFO 23720 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:41:10.395  INFO 15532 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 15532 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:41:10.397  INFO 15532 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:41:14.588  INFO 15532 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.796 seconds (JVM running for 6.126)
+2021-04-24 17:41:18.814  INFO 15532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:41:19.010  INFO 15532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:41:19.010  INFO 15532 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:41:19.835  INFO 15532 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:43:01.308  WARN 15532 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m48s796ms329µs650ns).
+2021-04-24 17:43:12.839  INFO 15532 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:43:16.697  INFO 15532 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:43:26.935  INFO 15532 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:43:26.981  INFO 15532 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:43:26.981  INFO 15532 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:43:27.561  INFO 15532 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:43:44.776  INFO 15532 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:43:44.776  INFO 15532 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:44:29.522  INFO 10584 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 10584 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:44:29.524  INFO 10584 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:44:33.381  INFO 10584 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.31 seconds (JVM running for 5.605)
+2021-04-24 17:44:39.301  INFO 10584 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:44:39.449  INFO 10584 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:44:39.449  INFO 10584 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:44:40.249  INFO 10584 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:44:40.380  INFO 10584 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:44:40.380  INFO 10584 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:46:49.578  INFO 10584 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:46:49.620  INFO 10584 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:46:49.620  INFO 10584 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:46:50.088  INFO 10584 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:46:50.150  INFO 10584 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:46:50.150  INFO 10584 --- [http-nio-8081-exec-5] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:47:32.538  INFO 10584 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:47:32.576  INFO 10584 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:47:32.577  INFO 10584 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:47:33.045  INFO 10584 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:47:33.110  INFO 10584 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:47:33.110  INFO 10584 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:50:10.594  INFO 15556 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 15556 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:50:10.597  INFO 15556 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:50:16.203  INFO 15556 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 6.147 seconds (JVM running for 7.551)
+2021-04-24 17:50:37.349  INFO 15556 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-04-24 17:50:37.478  WARN 15556 --- [http-nio-8081-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 17:50:37.520  WARN 15556 --- [http-nio-8081-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 17:50:37.585  INFO 15556 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-24 17:50:37.585  INFO 15556 --- [http-nio-8081-exec-3] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:50:44.524  INFO 15556 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:50:44.606  INFO 15556 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:50:44.608  INFO 15556 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:50:45.477  INFO 15556 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:50:45.562  INFO 15556 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:50:45.562  INFO 15556 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:51:22.785  INFO 23820 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 23820 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:51:22.789  INFO 23820 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:51:26.684  INFO 23820 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 4.382 seconds (JVM running for 5.615)
+2021-04-24 17:51:30.158  INFO 23820 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-04-24 17:51:30.291  WARN 23820 --- [http-nio-8081-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 17:51:30.349  WARN 23820 --- [http-nio-8081-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 17:51:30.420  INFO 23820 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-24 17:51:30.420  INFO 23820 --- [http-nio-8081-exec-2] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:51:36.291  INFO 23820 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:51:36.386  INFO 23820 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:51:36.387  INFO 23820 --- [http-nio-8081-exec-7] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:51:37.167  INFO 23820 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:51:37.268  INFO 23820 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:51:37.269  INFO 23820 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:56:55.044  INFO 8936 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 9.0.4 on DESKTOP-B6UMLIJ with PID 8936 (D:\projects\blog\target\classes started by 27223 in D:\projects\blog)
+2021-04-24 17:56:55.047  INFO 8936 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: pro
+2021-04-24 17:57:00.357  INFO 8936 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 5.864 seconds (JVM running for 7.22)
+2021-04-24 17:57:10.798  INFO 8936 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-04-24 17:57:10.946  WARN 8936 --- [http-nio-8081-exec-4] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 17:57:10.987  WARN 8936 --- [http-nio-8081-exec-4] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-04-24 17:57:11.051  INFO 8936 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : index
+2021-04-24 17:57:11.051  INFO 8936 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:57:18.805  INFO 8936 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:57:19.015  INFO 8936 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:57:19.016  INFO 8936 --- [http-nio-8081-exec-1] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:57:19.803  INFO 8936 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:57:19.870  INFO 8936 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:57:19.870  INFO 8936 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:57:35.395  INFO 8936 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:57:35.478  INFO 8936 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:57:35.479  INFO 8936 --- [http-nio-8081-exec-4] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:57:35.953  INFO 8936 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:57:36.016  INFO 8936 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:57:36.016  INFO 8936 --- [http-nio-8081-exec-9] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:57:38.756  INFO 8936 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Requesst : {url='/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.IndexController.blog', args=[69, {}]}
+2021-04-24 17:57:38.806  INFO 8936 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : Result : blog
+2021-04-24 17:57:38.806  INFO 8936 --- [http-nio-8081-exec-10] com.example.blog.aspect.LogAspect        : ----------doAfter----------
+2021-04-24 17:57:39.184  INFO 8936 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Requesst : {url='/comments/69', ip='0:0:0:0:0:0:0:1', classMethod='com.example.blog.web.CommentController.comments', args=[69, {}]}
+2021-04-24 17:57:39.246  INFO 8936 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-04-24 17:57:39.246  INFO 8936 --- [http-nio-8081-exec-8] com.example.blog.aspect.LogAspect        : ----------doAfter----------

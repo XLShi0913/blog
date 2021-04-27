@@ -42,84 +42,23 @@
                         <h3 class="ui teal header">归档</h3>
                     </div>
                     <div class="right aligned column">
-                        共 <h2 class="ui orange header m-inline-block"> 14 </h2> 篇
+                        共 <h2 class="ui orange header m-inline-block" th:text="${blogCount}"> 14 </h2> 篇
                     </div>
                 </div>
             </div>
             <!--年份列表-->
-            <h3 class="ui center aligned header">2017</h3>
-            <div class="ui fluid vertical menu">
-                <a href="#" target="_blank" class="item">
+            <th:block th:each="item : ${archiveMap}">
+                <h3 class="ui center aligned header" th:text="${item.key}">2017</h3>
+                <div class="ui fluid vertical menu">
+                    <a href="#" th:href="@{blog/{id}(id=${blog.id})}" target="_blank" class="item" th:each="blog : ${item.value}">
                     <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
+                        <i class="mini teal circle icon"></i> <span th:text="${blog.title}">关于刻意联系的清单</span>
+                        <div class="ui teal basic label m-padded-tb-mini" th:text="${#dates.format(blog.updateTime,'MMdd')}">9月03</div>
                     </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-                <a href="#" target="_blank" class="item">
-                    <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
-                    </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-                <a href="#" target="_blank" class="item">
-                    <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
-                    </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-            </div>
-            <h3 class="ui center aligned header">2016</h3>
-            <div class="ui fluid vertical menu">
-                <a href="#" target="_blank" class="item">
-                    <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
-                    </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-                <a href="#" target="_blank" class="item">
-                    <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
-                    </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-                <a href="#" target="_blank" class="item">
-                    <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
-                    </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-            </div>
-            <h3 class="ui center aligned header">2015</h3>
-            <div class="ui fluid vertical menu">
-                <a href="#" target="_blank" class="item">
-                    <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
-                    </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-                <a href="#" target="_blank" class="item">
-                    <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
-                    </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-                <a href="#" target="_blank" class="item">
-                    <span>
-                        <i class="mini teal circle icon"></i>关于刻意联系的清单
-                        <div class="ui teal basic label m-padded-tb-mini">9月03</div>
-                    </span>
-                    <div class="ui orange basic label">原创</div>
-                </a>
-            </div>
-
+                        <div class="ui orange basic label" th:text="${blog.flag}">原创</div>
+                    </a>
+                </div>
+            </th:block>
         </div>
     </div>
 
