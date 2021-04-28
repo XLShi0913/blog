@@ -391,3 +391,21 @@ private void recursively(Comment comment) {
 }
 ```
 
+## 6、归档页面的年份排序
+
+在BlogServiceImpl中，这里李老师在年份排序获得List<Year>后用的是HashMap<String, Blog>，这样向Map中添加年份的时候顺序就被打乱了，可以用LinkedHashMap<String, Blog>以保证排序与插入顺序一致（这里的具体原理就不说了，可自行翻阅数据结构相关书籍与java的手册）。
+
+更改后的代码如下，标记位置改成了LinkedHashMap<String, Blog>。
+
+```java
+@Override
+@Transactional
+public Map<String, List<Blog>> archiveBlog() {
+	List<String> years = blogRepository.findGroupYear();
+	Map<String, List<Blog>> map = new LinkedHashMap<>(); // 标记
+	for (String year : years) {
+		map.put(year, blogRepository.findByYear(year));
+	}
+	return map;
+}
+```
